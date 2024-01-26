@@ -15,7 +15,7 @@ __plugin_meta__ = PluginMetadata(
 
     type="application",
 
-    homepage="{项目主页}",
+    homepage="https://github.com/lengmianzz/nonebot-plugin-BAdrawcard",
 
     config=Config,
 
