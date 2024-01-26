@@ -8,6 +8,9 @@
   <img src="https://img.shields.io/github/license/lengmianzz/nonebot-plugin-BAdrawcard" alt="license">
   <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/nonebot-2.0.0+-red.svg" alt="NoneBot">
+  <a href="https://pypi.python.org/pypi/nonebot-plugin-badrawcard">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-badrawcard.svg" alt="pypi">
+  </a>
 </p>
 
 ## **Warning**: 本插件需要安装Redis!!!  
@@ -26,6 +29,10 @@
 nb plugin install nonebot-plugin-BAdrawcard
 ```
 
+ - 使用 pip
+```
+pip install nonebot-plugin-badrawcard
+```
 
 ### 配置:
  - proxy: 代理, `http://ip:host`格式
