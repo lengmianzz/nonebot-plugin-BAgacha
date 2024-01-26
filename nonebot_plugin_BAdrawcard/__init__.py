@@ -1,1 +1,0 @@
-from .nonebot_plugin_BAdrawcard import main
