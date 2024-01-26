@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "nonebot-plugin-badrawcard"
+version = "0.2.0"
+description = "模拟BA抽卡"
+authors = ["LMZZ"]
+readme = "README.md"
+packages = [{include = "nonebot_plugin_badrawcard"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+redis = "^5.0.0"
+pillow = "^10.0.1"
+pydantic = {version = "^1.10.0", extras = ["dotenv"]}
+aiofiles = "^23.2.1"
+httpx = {version = "^0.25.0", extras = ["nonebot2"]}
+nonebot2 = "^2.1.3"
+nonebot-plugin-send-anything-anywhere = "^0.5.0"
+nonebot-plugin-apscheduler = "^0.3.0"
+
+
+[tool.nonebot]
+plugins = ["nonebot_plugin_apscheduler", "nonebot_plugin_saa"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+ignore = ["E402"]
