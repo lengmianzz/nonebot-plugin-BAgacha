@@ -1,8 +1,14 @@
 <div align="center">
-# 《碧蓝档案》抽卡模拟器
+
+# 《碧蓝档案》抽卡模拟器 
 
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/github/license/lengmianzz/nonebot-plugin-BAdrawcard" alt="license">
+  <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/nonebot-2.0.0+-red.svg" alt="NoneBot">
+</p>
 
 ## **Warning**: 本插件需要安装Redis!!!  
 
