@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://p.ananas.chaoxing.com/star3/origin/01a37edbd405887d97d02c1fdcb1e8bc.png" width="200" height="200" alt="Icon">
+<img src="./images/icon.jpg" width="200" height="200" alt="Icon">
 
 # Nonebot-Plugin-BAdrawcard  
 ### 《碧蓝档案》抽卡模拟插件
@@ -16,9 +16,23 @@
   </a>
 </p>
 
+
 ## **Warning**: 使用本插件需要安装Redis!!!  
+## 本插件只在Matcha通过onebotV11适配器测试, 不保证其他适配器可用  
 
 
+
+<div align="center">
+
+### 效果展示:
+<img src="./images/info.jpg" width="550" height="350">
+<br>
+<img src="./images/drawcard1.jpg" width="550" height="350">
+<img src="./images/drawcard2.jpg" width="550" height="350">
+<img src="./images/drawcard3.jpg" width="550" height="350">
+
+
+</div>
 
 
 ### 功能:
