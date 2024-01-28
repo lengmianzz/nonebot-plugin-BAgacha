@@ -1,7 +1,9 @@
 <div align="center">
 
-# Nonebot-plugin-BAdrawcard  
-### 《碧蓝档案》抽卡模拟器 
+<img src="https://p.ananas.chaoxing.com/star3/origin/01a37edbd405887d97d02c1fdcb1e8bc.png" width="200" height="200" alt="Icon">
+
+# Nonebot-Plugin-BAdrawcard  
+### 《碧蓝档案》抽卡模拟插件
 
 </div>
 
@@ -14,12 +16,14 @@
   </a>
 </p>
 
-## **Warning**: 本插件需要安装Redis!!!  
+## **Warning**: 使用本插件需要安装Redis!!!  
+
+
+
 
 ### 功能:
- - 跟随游戏概率进行模拟抽卡
- - 自动更新up卡池
- - 长时间未启用, 重启自动更新卡池
+ - 自动更新抽卡概率
+ - 自动更新up卡池, 检测更新卡池和图标库
  - 展示当前UP学生
  - 展示当前概率
 
@@ -36,9 +40,9 @@ pip install nonebot-plugin-badrawcard
 ```
 
 ### 配置:
- - proxy: 代理, `http://ip:host`格式
- - redis_host: Redis的host, 默认为localhost
- - redis_port: Redis的开放端口, 默认为6379   
+ - proxy: 本插件需要使用代理(`http://ip:host`格式)
+ - redis_host: Redis的host(默认为localhost)
+ - redis_port: Redis的开放端口(默认为6379)  
 
 
 ### 触发:
