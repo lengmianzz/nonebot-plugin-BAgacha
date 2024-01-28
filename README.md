@@ -25,12 +25,11 @@
 <div align="center">
 
 ### 效果展示:
-<img src="./images/info.jpg" width="550" height="350">
-<br>
-<img src="./images/drawcard1.jpg" width="550" height="350">
-<img src="./images/drawcard2.jpg" width="550" height="350">
-<img src="./images/drawcard3.jpg" width="550" height="350">
+<img src="./images/info.jpg" width="450" height="400">
 
+<img src="./images/drawcard1.jpg" width="450" height="400" >
+<img src="./images/drawcard2.jpg" width="450" height="400" >
+<img src="./images/drawcard3.jpg" width="450" height="400" >
 
 </div>
 
