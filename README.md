@@ -27,7 +27,7 @@
 ### 效果展示:
 <img src="./images/info.jpg" width="450" height="400">
 
-<img src="./images/drawcard1.jpg" width="450" height="400" >
+<img src="./images/drawcard1.jpg" width="450" height="300" >
 <img src="./images/drawcard2.jpg" width="450" height="400" >
 <img src="./images/drawcard3.jpg" width="450" height="400" >
 
@@ -64,3 +64,4 @@ pip install nonebot-plugin-badrawcard
  - `/ba来一井`
  - `/当前概率`
  - `/当前up`
+ - `/订阅更新`(当自动更新up池时提醒用户)
