@@ -28,8 +28,8 @@
 <img src="./images/info.jpg" width="450" height="400">
 
 <img src="./images/drawcard1.jpg" width="450" height="300" >
-<img src="./images/drawcard2.jpg" width="450" height="400" >
-<img src="./images/drawcard3.jpg" width="450" height="400" >
+<img src="./images/drawcard2.jpg" width="450" height="350" >
+<img src="./images/drawcard3.jpg" width="450" height="350" >
 
 </div>
 
