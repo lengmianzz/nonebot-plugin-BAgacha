@@ -1,5 +1,4 @@
 from functools import wraps
-import time
 from typing import List, Tuple, Dict, TypeAlias
 import asyncio
 
@@ -26,23 +25,23 @@ details: TypeAlias = Tuple[int, int, int, Adaptions]
 def retry(tries: int = 4, delay: int = 3):
     def deco_retry(f):
         @wraps(f)
-        def f_retry(url, **kwargs):
+        async def f_retry(url, **kwargs):
             mtries, mdelay = tries, delay
 
             while mtries > 1:
                 try:
-                    return f(url, **kwargs)
+                    return await f(url, **kwargs)
                 except Exception:
                     logger.warning(
                         f"第{mtries}尝试请求{url}失败, 将在{mdelay}后重试"
                     )
 
-                    time.sleep(mdelay)
+                    await asyncio.sleep(mdelay)
 
                     mtries -= 1
                     mdelay *= 2
                     
-            return f(url, **kwargs)
+            return await f(url, **kwargs)
 
         return f_retry
 
