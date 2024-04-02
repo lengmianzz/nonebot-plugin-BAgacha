@@ -44,7 +44,7 @@
 ### 安装:
  - 使用 nb-cli 安装  
 ```
-nb plugin install nonebot-plugin-BAdrawcard
+nb plugin install nonebot-plugin-badrawcard
 ```
 
  - 使用 pip
