@@ -4,7 +4,7 @@
 
 # Nonebot-Plugin-BAdrawcard  
 ### 《碧蓝档案》抽卡模拟插件
-
+### 摸鱼施工重建中！
 </div>
 
 <p align="center">
